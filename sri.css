@@ -8,3 +8,18 @@
     color: aquamarine;
     font-size: 15px;
 }
+
+/* @media screen and (max-width: 600px) {            
+    .search-size{
+        
+        width: 25%;
+        margin: 0px 0px 0px 0px;}
+}
+@media screen and (max-width: 600px) {            
+    .searchbar-size{
+        
+        width: 50%;
+        margin: 0px 120px 0px 0px;}
+} */
+
+

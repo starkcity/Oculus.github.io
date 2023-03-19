@@ -35,25 +35,45 @@
             .hidden-mobile {
             display: none;}
             }
-            @media screen and (max-width: 600px) {            
+            @media screen and (max-width: 1000px) {            
                 .search-size{
-                    
-                    width: 20%;
-                    margin: 0px 0px 0px 0px;}
+                    width: 10vh;
+                    margin: 0px 0px 0px 10px;}
             }
-            @media screen and (max-width: 600px) {            
+            @media screen and (max-width: 1000px) {            
                 .searchbar-size{
                     
                     width: 50%;
-                    margin: 0px 120px 0px 0px;}
+                    margin: 0px 1px 0px 0px;}
+            }
+          
+            @media screen and (min-width: 300px) {            
+                .search-size{
+                    height: 35px;
+                    width: 8vh;
+                    padding: 0px 0px 0px 0px;
+            }
+            @media screen and (min-width: 300px) {            
+                .searchbar-size{
+                    height: 35px;
+                    width: 30vh;
+                    margin: 0px 1px 0px 0px;
+                }
+
+            }
+                
+            
+            @media screen and (min-width: 300px) {
+                .line{
+                    height: 50px;}
             }
         </style>
     </head>
     <body>
 
-                    <div style="border: 1px solid black; width: 92%; height: 56px; float: right; margin: 15px 20px 15px 0px; border-color: #47446d;" class="round">
+                    <div style="border: 1px solid black; width: 92%; float: right; margin: 15px 20px 15px 0px; border-color: #47446d;" class="round line">
                         
-                        <nav class="navbar navbar-expand-sm bg-dark navbar-dark round">
+                        <nav class="navbar navbar-expand-sm bg-dark navbar-dark round line">
                             <form class="form-inline" action="/action_page.php">
                             <input class="form-control mr-sm-2 searchbar-size" type="text" placeholder="Search">
                             <button class="btn btn-success search-size" type="submit">Search</button>
