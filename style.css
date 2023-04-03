@@ -45,10 +45,10 @@ header {
     color: orange;
 }
 .padd {
-    padding-top: 55px;
+    padding-top: 35px;
 }
 .lnk {
-    padding-top: 55px;
+    padding-top: 35px;
     font-style: bold;
     font-weight: 400;
     font-size: 18px;
@@ -69,7 +69,7 @@ header {
     display: none;
 }
 .but {
-    margin-top: 55px;
+    margin-top: 35px;
 }
 
 .action_btn {
@@ -138,7 +138,7 @@ header {
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 570px) {
     .dropdown_menu {
         left: 2rem;
         width: unset; 
