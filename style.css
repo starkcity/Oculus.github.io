@@ -17,7 +17,7 @@ a {
 }
 
 a:hover {
-    color: black;
+    color: crimson;
 }
 /* HEADER */
 header {
@@ -56,9 +56,11 @@ header {
     color: orange;
 }
 new {
+    text-decoration: none;
     color: orange;
 }
 spin {
+    text-decoration: none;
     color: orange;
 }
 .padd {
@@ -77,6 +79,10 @@ spin {
 new:hover {
     scale: 1.05;
     color: crimson;
+}
+now:hover {
+    scale: 1.05;
+    color: black;
 }
 spin:hover {
     scale: 1.05;
@@ -180,6 +186,7 @@ spin:hover {
     }
     .navbg {
         height: 40px;
+        width: 300px;
         margin-top: 35px;
         background: rgba(255, 255, 255, 0.1);
         backdrop-filter: blur(15px);
@@ -203,5 +210,6 @@ spin:hover {
     .navbar .logo a {
         font-size: 1.8rem;
         font-weight: bold;
+        padding-right: 20px;
     }
 }
