@@ -5,7 +5,38 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+/* ------------------Body-------------------- */
+.body {
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    background-color: #0a151f;
+    z-index: -1;
+    color: #170a1f;
+    position: absolute;
+    box-sizing: 100%;
+}
+body::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 165%;
+    height: 195%;
+    background-color: #415e6a;
+    z-index: -1;
+    transform-origin: bottom left;
+    transform: skew(40deg) translateX(-90%) translateY(40%);
+    transition: all .5s ease-in-out;
+}
+body:hover::after {
+    transform: skew(40deg) translateX(-60%) translateY(40%);
+}
 
+/* -----------------Body End ------------------- */
 li {
     list-style: none;
 }
@@ -163,7 +194,7 @@ spin:hover {
     color: #fff;
 }
 
-/* RESPONSIVE DESIGN */
+/* --------------RESPONSIVE DESIGN -----------------*/
 @media (max-width: 992px) {
     .navbar .links,
     .navbar .action_btn {
@@ -174,6 +205,7 @@ spin:hover {
         display: block;
     }
 }
+
 
 @media (max-width: 576px) {
     .dropdown_menu {
@@ -212,4 +244,55 @@ spin:hover {
         font-weight: bold;
         padding-right: 20px;
     }
+
+    /* .body {
+        height: 55vh;
+        margin: 0 auto;
+        border: none;
+        outline: none;
+        overflow: hidden;
+        background-color: #170a1f;
+        z-index: -1;
+        color: #170a1f;
+        position: absolute;
+        box-shadow: 0 25px 25px 0 #170a1f;
+    }
+    body::after{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 165%;
+        height: 195%;
+        background-color: #3e5438;
+        z-index: -1;
+        transform-origin: bottom left;
+        transform: skew(40deg) translateX(-120%) translateY(40%);
+        transition: all .5s ease-in-out;
+    }
+    body:hover::after {
+        transform: skew(40deg) translateX(-80%) translateY(40%);
+    } */
+
 }
+    .body {
+        display: block;
+        height: 100vh;
+        background-color: #000;
+        background-image: url(https://images.unsplash.com/photo-1470770841072-f978cf4d019e?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=luca-bravo-zAjdgNXsMeg-unsplash.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        box-shadow: 100% 100% 100% 100% black;
+    }
+    
+}
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------ THiS is for line.html ------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------ */

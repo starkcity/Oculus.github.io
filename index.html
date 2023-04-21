@@ -1,76 +1,56 @@
 <!DOCTYPE html>
-<html lang="eng">
-    <head>
-
-                <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-G2FQGEKH23"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-G2FQGEKH23');
-        </script>
-
-        <meta charset="UTF-8"/>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="style.css"/>
-        <title>Noth!Ng2Do.✔</title>
-        <style>
-        body {
-            height: 100vh;
-            background-color: #000;
-            background-image: url(https://images.unsplash.com/photo-1470770841072-f978cf4d019e?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=luca-bravo-zAjdgNXsMeg-unsplash.jpg);
-            background-size: cover;
-            background-position: bottom
-            
-        }
-        </style>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noth!Ng2Do.✔</title>
+    <style>
         
-        
-    </head>
-    <body>
-        <header>
-                
-        <div class="navbg marg">   
+
+    </style>
+</head>
+<body class="body span">
+    <div class="bg">
+
+        <div class="navbg marg pos">   
             <div class="navbar">
                 <div class="logo padd"><a href="#">Noth!Ng2Do<new>.</new><spin>✔</spin>  </a></div>
                 <ul class="links lnk">
-                    <li><a href="hero">H<now>ome</now></a></li>
-                    <li><a href="about">A<now>bout </now></a></li>
-                    <li><a href="services">S<now>ervices </now></a></li>
-                    <li><a href="contact">C<now>ontact</now></a></li>
+                    <li><a href="index.html">H<now>ome</now></a></li>
+                    <li><a href="about onclick=">A<now>bout </now></a></li>
+                    <li><a href="resume.html">R<now>esume </now></a></li>
+                    <li><a href="nxt.html">C<now>ontact</now></a></li>
                 </ul>
-                <a href="#" class="action_btn but">Get Started</a>
+                <a href="line.html" class="action_btn but">Get Started</a>
                 <div class="toggle_btn but"><i class="fa-solid fa-bars"></i></div>
             </div>
         </div>
 
+
             <div class="dropdown_menu">
-                <li><a href="hero">H<now>ome</now></a></li>
+                <li><a href="index.html">H<now>ome</now></a></li>
                 <li><a href="about">A<now>bout </now></a></li>
                 <li><a href="services">S<now>ervices </now></a></li>
                 <li><a href="contact">C<now>ontact</now></a></li>
                 <li><a href="#" class="action_btn">Get Started</a></li>
             </div>
-        </header>
+            <!-- <button class="btn"><span>Hover Me</span></button>-->
+    </div>
+</body>
+    <script>
+        const toggleBtn = document.querySelector('.toggle_btn')
+        const toggleBtnIcon = document.querySelector('.toggle_btn i')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
 
-        <script>
-            const toggleBtn = document.querySelector('.toggle_btn')
-            const toggleBtnIcon = document.querySelector('.toggle_btn i')
-            const dropDownMenu = document.querySelector('.dropdown_menu')
+        toggleBtn.onclick = function () {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
 
-            toggleBtn.onclick = function () {
-                dropDownMenu.classList.toggle('open')
-                const isOpen = dropDownMenu.classList.contains('open')
-
-                toggle_BtnIcon.classList = isOpen
-                    ? 'fa-solid fa-xmark'
-                    : 'fa-solid fa-bars'
-            }
-        </script>
-
-    </body>
+            toggle_BtnIcon.classList = isOpen
+                ? 'fa-solid fa-xmark'
+                : 'fa-solid fa-bars'
+        }
+    </script>
 </html>
