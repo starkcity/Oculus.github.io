@@ -23,7 +23,7 @@ li {
 a {
     text-decoration: none;
     color: orange;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
 }
 
 a:hover {
@@ -46,7 +46,7 @@ header {
     justify-content: space-between;
 }
 .navbg {
-    height: 67px;
+    height: 60px;
     border-radius: 45px;
     margin-top: 25px;
     background: rgba(255, 255, 255, 0.1);
@@ -56,7 +56,7 @@ header {
     transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .navbar .logo a {
-    font-size: 3.0rem;
+    font-size: 2.7rem;
     font-weight: bold;
 
 }
@@ -81,7 +81,7 @@ spin {
     padding-top: 30px;
     font-style: bold;
     font-weight: 800;
-    font-size: 20px;
+    font-size: 17px;
 }
 .logo a:hover {
     scale: 1.05;
