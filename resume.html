@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio Resume</title>
+    <link rel="stylesheet" href="resume.css">
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      
+      header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+      }
+      
+      h1 {
+        margin-top: 0;
+      }
+      
+      section {
+        padding: 50px;
+      }
+      
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      
+      li {
+        margin-bottom: 10px;
+      }
+      
+      .highlight {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  
+    <body>
+        <header>
+          <li><a href="port.html"><button class="back-button">
+            <span class="back-icon">&larr;</span>
+          </button></a></li>
+            <h1 class="name">CHAMARTHI KALYAN CHARAN</h1><hr style="height:4px;border-width:0;color:gray;background-color:gray" class="line"><h4 class="mobile">Mobile- <a href="tel:+91 9392650700" style="font-weight: 1; color: #b33c0d;">+91 9505660623</a></h4>
+            <p class="add">Hyderabad, Telangana.</p><p class="Email">Email: <a href="mailto:kalyancharan9392@gmail.com" style="font-weight: 1; color: #b33c0d;">kalyancharan9392@gmail.com</a></p>
+            </header>
+            
+            <section>
+              <h2 class="head-a">SUMMARY</h2>
+            <p class="para">Flexible and Enthusiastic in my work, willing to learn new technologies, Ability to work in a professional 
+              environment and take up challenges that will bring out the best of my capabilities which in turn will 
+              contribute towards the growth of the organization.</p>
+            </section>
+
+            <hr style="height:4px;border-width:0;color:gray;background-color:gray">
+            <section>
+            <h2 class="head-a">EDUCATION</h2>
+            <p class="para">AV College of Arts, Science and Commerce (OU) Hyderabad, Telangana
+            Bachelor of Science in Computer Science 2020-2023
+            Board of Intermediate Education Nalgonda, Telangana
+            Prathibha Junior College 2018-2020
+            Secondary School Examination Chilukur, Telangana
+            Globus High School</p>
+            </section>
+            <hr style="height:4px;border-width:0;color:gray;background-color:gray">
+            <section>
+              <h2 class="head-a">SKILLS</h2>
+              <p class="para"><b>Backend Technologies :</b> JavaScript, HTML, CSS, 
+                Bootstrap.</span>
+                <br>
+                <br>
+                <b>Frameworks :</b> JavaScript
+                <br>
+                <br>
+                <b>Database :</b> MYSQL
+                <br>
+                <br>
+                <b>Operating Systems :</b> Linux/Ubuntu, Windows</p>
+            </section>
+
+            <hr style="height:4px;border-width:0;color:gray;background-color:gray">
+            <section>
+                <h2 class="head-a">PROJECTS</h2> <!-- <h5 style="text-align: right;  position: absolute; padding-left: 850px; padding-top: 15px; font-size: 15px;" >Hyderabad, Telangana 2023-Mar 2023(1 M)</h5> -->
+                <h4 class="head-b">Organization Name</h4>
+                <p class="para"> OSMANIA UNIVERSITY FACULTY OF SCIENCE</p>
+                <h4 class="head-b">Responsibilities</h4>
+                <p class="para">• Successfully implemented real-time monitoring of students' behavior during exams, including 
+                  detecting suspicious mouse movements, keystrokes, and tab switches.
+                  <br><br>
+                  • Received an A grade for the project, which was one of the top projects in the class.
+                  <br><br>
+                  • The tool received positive feedback from the professor and was appreciated for its effectiveness in 
+                  preventing cheating during online exams.</p>
+                <h4 class="head-b">Project Name</h4>
+                <p class="para">Online Exam Student Anti Cheat Tool.</p>
+                <h4 class="head-b">Project Abstract :</h4>
+                <p class="para">The Student Anti-Cheat Tool helps reduce these problems by detecting students 
+                  faces with face recognition for identification and Students onscreen time with mobile phone cheating 
+                  detection.</p>
+                  <h4 class="head-b">Role in Project :</h4>
+                <p class="para">: Worked as a part of a team of five developers and contributed to the design and 
+                  implementation of the tool's user interface, behavior monitoring algorithms, and testing.</p>
+                <h4 class="head-b">Skills Gained:</h4>
+                <p class="para">• Python programming for developing anti-cheating tools.
+                  • Integration of anti-cheating tools with learning management systems.
+                  <br>
+                  <br>
+                  • Real-time monitoring of user behavior.
+                  <br>
+                  <br>
+                  • Teamwork and collaboration skills in a group project.</p>
+            </section>
+            <hr style="height:4px;border-width:0;color:gray;background-color:gray">
+        <a href="../resume/resume.pdf" download>
+          <button class="down">Download</button> <alt="resume.pdf" width="110" height="152">
+        </a>
+        </header>
+
+        <script>
+
+import React from 'react';
+import { TouchableOpacity, StyleSheet } from 'react-native';
+import Icon from 'react-native-vector-icons/Ionicons';
+
+const BackButton = ({ onPress }) => (
+  <TouchableOpacity style={styles.button} onPress={onPress}>
+    <Icon name="arrow-back" size={35} color="#333" />
+  </TouchableOpacity>
+);
+
+const styles = StyleSheet.create({
+  button: {
+    backgroundColor: '#333',
+    borderRadius: 5,
+    padding: 10,
+  },
+});
+
+export default BackButton;
+
+
+        </script>
+
+    </body>
+</html>
+        
