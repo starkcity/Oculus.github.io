@@ -56,7 +56,7 @@ header {
     transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .navbar .logo a {
-    font-size: 3.3rem;
+    font-size: 3.0rem;
     font-weight: bold;
 
 }
@@ -81,7 +81,7 @@ spin {
     padding-top: 30px;
     font-style: bold;
     font-weight: 800;
-    font-size: 25px;
+    font-size: 20px;
 }
 .logo a:hover {
     scale: 1.05;
